@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Cargo launch",
+            "cargo": {
+                "args": [
+                    "build"
+                ]
+            },
+            "args": []
+        },
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Debug",
+        //     "program": "${workspaceRoot}/target/debug/gatt_remotectl_server",
+        //     "args": [],
+        //     "cwd": "${workspaceRoot}",
+        //     // "sourceLanguages": [
+        //     //     "rust"
+        //     // ]
+        // }
+    ]
+}
